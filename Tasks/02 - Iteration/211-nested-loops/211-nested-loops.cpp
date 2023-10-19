@@ -13,7 +13,13 @@ int main()
             printf("\tInner loop number %d\n", j);  // note the use of the tab (\t) option at the start to improve the layout
             
             //Task - Write another level of nesting here
+            for (int k = 1; k <= 3; k++)    // Inner loop executes 5 times for each outer loop run so 10 time in total
+            {
+                printf("\t\t%d,%d,%d\n", i, j, k); // note the use of the tab (\t) option at the start to improve the layout
 
+                //Task - Write another level of nesting here
+
+            }
         }
     }
 }
