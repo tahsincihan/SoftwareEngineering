@@ -1,4 +1,4 @@
-/*
+    /*
 
     If statements
 
@@ -29,7 +29,15 @@ int main()
     do {
         cout << "Please enter a level (between 0 and 100)" << endl;
         cin >> level;
+
+        if (level < 0)
+        {
+            cout << "Tank is empty" << endl;
+        }
+
     } while (level < 0);
+
+  
 
     if (level <= low)                       // check the level
     {
