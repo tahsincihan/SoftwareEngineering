@@ -21,7 +21,7 @@ int main()
 	//Write the banner above
 	displayBanner();
 
-	cout << "* ";				//Leading *
+	cout << "* ";				//Leading *	
 	cout << message;			//Message
 	cout << " *" << endl;		//Trailing *
 
